@@ -25,6 +25,11 @@ public class Epstein {
         return border;
     }
 
+    /**
+     * drawRooms method.
+     * @param int[][] rooms
+     * @return String.
+     */
     public static String drawRooms(int[][] rooms) {
         String result = "";
         for (int i = 0; i < rooms.length; i++) {
